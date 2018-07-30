@@ -51,7 +51,7 @@ print(xt, type="html")
 ```
 
 <!-- html table generated in R 3.4.4 by xtable 1.8-2 package -->
-<!-- Fri Jul 27 16:00:27 2018 -->
+<!-- Mon Jul 30 11:37:54 2018 -->
 <table border=1>
 <tr> <th>  </th> <th> mean </th> <th> median </th>  </tr>
   <tr> <td> total daily steps </td> <td align="right"> 9354.2295082 </td> <td align="right"> 10395 </td> </tr>
@@ -62,7 +62,7 @@ print(xt, type="html")
 
 ```r
 meanPerInterval <- with(data, tapply(steps, interval, mean, na.rm=TRUE))
-plot(x=names(meanPerInterval), y=meanPerInterval, type="l", xlab="Interval", ylab="Number of Steps (Mean", main="Average Number of Steps in Interval")
+plot(x=names(meanPerInterval), y=meanPerInterval, type="l", xlab="Interval", ylab="Number of Steps (Mean)", main="Average Number of Steps in Interval")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
@@ -133,7 +133,7 @@ print(xt, type="html")
 ```
 
 <!-- html table generated in R 3.4.4 by xtable 1.8-2 package -->
-<!-- Fri Jul 27 16:00:28 2018 -->
+<!-- Mon Jul 30 11:37:55 2018 -->
 <table border=1>
 <tr> <th>  </th> <th> mean </th> <th> median </th>  </tr>
   <tr> <td> Imputed total daily steps </td> <td align="right"> 10765.6393443 </td> <td align="right"> 10762 </td> </tr>
